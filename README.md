@@ -1,10 +1,15 @@
+[tag_bg_colour]: 851D2D
+[tag_txt_colour]: 851D2D
+[tag_logo_colour]: white
+[tag_style]: plastic
+
 ### Hello, I'm a
 
  - Data scientist
  - Programmer
  - Physicist
 
-<hr>
+---
 
 ### I work with
 
