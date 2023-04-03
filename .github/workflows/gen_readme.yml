@@ -1,0 +1,6 @@
+name: Gen-readme
+
+on:
+  push:
+  
+jobs:
