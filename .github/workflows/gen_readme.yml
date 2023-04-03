@@ -4,3 +4,28 @@ on:
   push:
   
 jobs:
+  markscribe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@master
+
+      - name: Update readme
+        uses: muesli/readme-scribe@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          template: "README.md.tpl"
+          writeTO: "README.md"
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          commit_message: Updated generated readme-scribe
+          branch: master
+          commit_user_name: readme-scribe :bot
+          commit_user_email: actions@github.com
+          commit_author: readme-scribe :bot <actions@github.com>
