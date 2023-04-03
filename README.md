@@ -1,5 +1,5 @@
 [tag_bg_colour]: 851D2D
-[tag_txt_colour]: 851D2D
+[tag_txt_colour]: white
 [tag_logo_colour]: white
 [tag_style]: plastic
 
