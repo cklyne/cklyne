@@ -42,9 +42,9 @@ def handle_args(args: Mapping[str,]) -> tuple[Mapping[str,], str]:
     :param args: The raw arguments passed by the user.
     """
     if args.work_dir is not None:
-        args.tmpl_path = os.path.join(args.tmpl_path, args.work_dir)
-        args.cnfg_path = os.path.join(args.cnfg_path, args.work_dir)
-        args.dest_path = os.path.join(args.dest_path, args.work_dir)
+        args.tmpl_path = os.path.join(args.work_dir, args.tmpl_path)
+        args.cnfg_path = os.path.join(args.work_dir, args.cnfg_path)
+        args.dest_path = os.path.join(args.work_dir, args.dest_path)
     config_name : str = args.cnfg_key
     return args, config_name
 
