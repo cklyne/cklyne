@@ -1,0 +1,6 @@
+.vscode/*
+scripts/__pycache__/*
+scripts/.ipynb_checkpoints/*
+
+*.testFile
+testREADME.md
