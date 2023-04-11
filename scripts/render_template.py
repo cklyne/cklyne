@@ -20,7 +20,9 @@ def get_args():
     parser.add_argument("--work-dir", help="The path to the work directory. "\
                                            "If provided, all other path arguments should be given relative to this.",
                         type=str, default=None)
-    parser.add_argument("--tmpl-path", help="A path to the template file.",
+    parser.add_argument("--tmpl-dir", help="A path to the template directory.",
+                        type=str, default=None, required=True)
+    parser.add_argument("--tmpl-name", help="The name of the template file.",
                         type=str, default=None, required=True)
     parser.add_argument("--cnfg-path", help="A path to the config file. "
                                             "It should be a json format, with a dict of dicts. "
@@ -42,7 +44,7 @@ def handle_args(args: Mapping[str,]) -> tuple[Mapping[str,], str]:
     :param args: The raw arguments passed by the user.
     """
     if args.work_dir is not None:
-        args.tmpl_path = os.path.join(args.work_dir, args.tmpl_path)
+        args.tmpl_dir = os.path.join(args.work_dir, args.tmpl_dir)
         args.cnfg_path = os.path.join(args.work_dir, args.cnfg_path)
         args.dest_path = os.path.join(args.work_dir, args.dest_path)
     config_name : str = args.cnfg_key
@@ -79,10 +81,10 @@ def render_template(args=None):
         args = get_args().parse_args()
     args, config_name = handle_args(args)
 
-    tmplLoader = jinja2.FileSystemLoader(searchpath="./")
+    tmplLoader = jinja2.FileSystemLoader(searchpath=args.tmpl_dir)
     tmplEnv = jinja2.Environment(loader=tmplLoader)
 
-    tmpl = tmplEnv().get_template(args.tmpl_path)
+    tmpl = tmplEnv.get_template(args.tmpl_name)
     
     with open(args.cnfg_path, 'r') as file:
         user_configs = json.load(file)
