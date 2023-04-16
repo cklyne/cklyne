@@ -1,5 +1,5 @@
 [
-  "test_conf",
+  "default",
   {
     "default": {
       "tag_bg_colour": "851D2D",
@@ -7,8 +7,8 @@
       "tag_logo_colour": "white",
       "tag_style": "plastic"
     },
-    "test_conf": {
-      "tag_bg_colour": "yellow",
+    "au": {
+      "tag_bg_colour": "blue",
       "tag_txt_colour": "white",
       "tag_logo_colour": "white",
       "tag_style": "plastic"
