@@ -3,7 +3,7 @@ name: Gen-readme
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - .github/workflows/gen_readme.yml
       - scripts/render_template.py
