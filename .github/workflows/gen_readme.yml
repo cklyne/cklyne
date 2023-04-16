@@ -31,7 +31,7 @@ jobs:
           --dest-path README.md
 
       - name: Setup git
-        ru: |
+        run: |
           git config --global.user "Render Bot - Readme"
           git config --global.email "readme@render.bot"
           # git remote set-url origin https://github.com/cklyne/cklyne.git
