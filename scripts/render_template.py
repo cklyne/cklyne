@@ -31,7 +31,7 @@ def get_args():
                                             "with the 1st item being the name of the selected config.",
                         type=str, default=None, required=True)
     parser.add_argument("--cnfg-key", help="The chosen config to be applied to the template from the config file.",
-                        type=str, default=DEFAULT_CONFIG_KEY)
+                        type=str, default=None)
 
     parser.add_argument("--dest-path", help="A path to the output location of the file.",
                         type=str, default=None, required=True)
