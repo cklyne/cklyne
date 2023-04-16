@@ -10,7 +10,7 @@ on:
       - requirements.txt
       - config.json
       - templates/*
-      - !README.md
+      - "!README.md"
   
 jobs:
   Render Readme:
