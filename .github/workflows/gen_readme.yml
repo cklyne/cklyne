@@ -32,8 +32,8 @@ jobs:
 
       - name: Setup git
         run: |
-          git config --global.user "Render Bot - Readme"
-          git config --global.email "readme@render.bot"
+          git config --global user.name "Render Bot - Readme"
+          git config --global user.email "readme@render.bot"
           # git remote set-url origin https://github.com/cklyne/cklyne.git
 
       - name: Commit changes
