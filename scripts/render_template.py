@@ -82,7 +82,7 @@ def render_template(args=None):
     args, config_name = handle_args(args)
 
     tmplLoader = jinja2.FileSystemLoader(searchpath=args.tmpl_dir)
-    tmplEnv = jinja2.Environment(loader=tmplLoader)
+    tmplEnv = jinja2.Environment(loader=tmplLoader, autoescape=True)
 
     tmpl = tmplEnv.get_template(args.tmpl_name)
     
