@@ -2,7 +2,8 @@
   "test_conf",
   {
     "default": {
-      "tag_bg_colour": "851D2D",
+      // "tag_bg_colour": "851D2D",
+      "tag_bg_colour": "blue",
       "tag_txt_colour": "white",
       "tag_logo_colour": "white",
       "tag_style": "plastic"
