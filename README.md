@@ -13,21 +13,21 @@
 
 ### I work with
 
-![](https://img.shields.io/badge/OS-Linux-blue?style=plastic&logo=Linux&logoColor=white)
-![](https://img.shields.io/badge/Code-Python-blue?style=plastic&logo=Python&logoColor=white)
-![](https://img.shields.io/badge/Code-c++-blue?style=plastic&logo=C%2B%2B&logoColor=white)
-![](https://img.shields.io/badge/Code-Matlab-blue?style=plastic&logo=Matrix&logoColor=white)
-![](https://img.shields.io/badge/Code-MySQL-blue?style=plastic&logo=MySQL&logoColor=white)
+![](https://img.shields.io/badge/OS-Linux-yellow?style=plastic&logo=Linux&logoColor=white)
+![](https://img.shields.io/badge/Code-Python-yellow?style=plastic&logo=Python&logoColor=white)
+![](https://img.shields.io/badge/Code-c++-yellow?style=plastic&logo=C%2B%2B&logoColor=white)
+![](https://img.shields.io/badge/Code-Matlab-yellow?style=plastic&logo=Matrix&logoColor=white)
+![](https://img.shields.io/badge/Code-MySQL-yellow?style=plastic&logo=MySQL&logoColor=white)
 
-![](https://img.shields.io/badge/Package-Jupyter__Notebook-blue?style=plastic&logo=Jupyter&logoColor=white)
-![](https://img.shields.io/badge/Package-NumPy-blue?style=plastic&logo=NumPy&logoColor=white)
-![](https://img.shields.io/badge/Package-Tensorflow-blue?style=plastic&logo=TensorFlow&logoColor=white)
-![](https://img.shields.io/badge/Package-Flask-blue?style=plastic&logo=Flask&logoColor=white)
+![](https://img.shields.io/badge/Package-Jupyter__Notebook-yellow?style=plastic&logo=Jupyter&logoColor=white)
+![](https://img.shields.io/badge/Package-NumPy-yellow?style=plastic&logo=NumPy&logoColor=white)
+![](https://img.shields.io/badge/Package-Tensorflow-yellow?style=plastic&logo=TensorFlow&logoColor=white)
+![](https://img.shields.io/badge/Package-Flask-yellow?style=plastic&logo=Flask&logoColor=white)
 
-![](https://img.shields.io/badge/CI/CD-Pytest-blue?style=plastic&logo=Pytest&logoColor=white)
-![](https://img.shields.io/badge/CI/CD-gtest-blue?style=plastic&logo=Google&logoColor=white)
-![](https://img.shields.io/badge/CI/CD-GitHub_Actions-blue?style=plastic&logo=GitHub%20Actions&logoColor=white)
-![](https://img.shields.io/badge/CI/CD-Docker-blue?style=plastic&logo=Docker&logoColor=white)
+![](https://img.shields.io/badge/CI/CD-Pytest-yellow?style=plastic&logo=Pytest&logoColor=white)
+![](https://img.shields.io/badge/CI/CD-gtest-yellow?style=plastic&logo=Google&logoColor=white)
+![](https://img.shields.io/badge/CI/CD-GitHub_Actions-yellow?style=plastic&logo=GitHub%20Actions&logoColor=white)
+![](https://img.shields.io/badge/CI/CD-Docker-yellow?style=plastic&logo=Docker&logoColor=white)
 
 <!--
 **cklyne/cklyne** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
